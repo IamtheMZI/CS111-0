@@ -1,0 +1,7 @@
+OBJS=mycat
+CC=cc
+
+target:mycat
+mycat:$(CC) mycat.c -o mycat
+clean: rm -rf OBJS
+
